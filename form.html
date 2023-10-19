@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="../day9/form.html"> 
+        <!-- <form action="https://www.instagram.com"> -->
+        <input placeholder="Enter the  first name"><br><br>
+        <input type="number" min="18" max="60" placeholder="Enter your age" style="width: 300px;" autofocus required> <sup style="color: red;">*</sup>
+        <br><br>
+        <input type="date" min="1965-01-10" max="2023-12-31" autofocus>
+        <br><br>
+        <label for="email">email</label>
+        <input type="email" id="email">
+        <br><br>
+        <label for="pass">Password</label>
+        <input placeholder="Enter the password" id="pass">
+        <br><br>
+        <input placeholder="Enter the first name" minlength="3" maxlength="20">
+
+        <textarea placeholder="Enter your address" minlength="10" maxlength="30"></textarea>
+        <br><br>
+        <select name="" id="">
+            <option value="">--places--</option>
+            <optgroup label="South City">
+                <option value="">Hyderabad</option>
+                <option value="">Banglore</option>
+            </optgroup>
+            <optgroup label="North City">
+                <option value="">Delhi</option>
+                <option value="">Mumbai</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input placeholder="Enter your place" list="place">
+        <br>
+        <datalist id="place">
+            <option value="Hyderabad"></option>
+            <option value="Mumbai"></option>
+            <option value="Banglore"></option>
+            <option value="Haryana"></option>
+            <option value="Bihar"></option>
+            <option value="Chennai"></option>
+            <option value="Vizag"></option>
+            <option value="Manglore"></option>
+            <option value="Vijayawada"></option>
+            <option value="Belur"></option>
+        </datalist>
+        <br><br><br>
+        <input type="submit" disabled>
+    </form>
+</body>
+</html>
